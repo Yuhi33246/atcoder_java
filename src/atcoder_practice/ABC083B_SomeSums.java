@@ -14,9 +14,9 @@ public class ABC083B_SomeSums {
 			int sum = 0;
 			int temp = i;
 			while (temp > 0) {
-			    int digit = temp % 10;  // 右端の桁
+			    int digit = temp % 10;
 			    sum += digit;
-			    temp = temp / 10;           // 右端を取り除く
+			    temp = temp / 10;
 			}
 			if(a<=sum && sum<=b) {
 				count+= i;
